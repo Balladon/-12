@@ -1,0 +1,25 @@
+public class ProgramConfig
+{
+    public const string Version = "1.0";
+    public const string Developer = "John Doe";
+
+   
+   
+   
+    public static void ShowInfo()
+    {
+        Console.WriteLine($"Версия программы: {Version}");
+        Console.WriteLine($"Разработчик: {Developer}");
+    }
+}
+class ProgramConfig
+{
+    static void Main()
+    {
+
+        ProgramConfig.ShowInfo();
+
+
+        Console.ReadLine();
+    }
+}
